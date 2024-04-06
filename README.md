@@ -1,4 +1,4 @@
-# Cert Automation
+# Certificates Automation
 
 A simple python script for adjusting and validating certificates prototypes and flavors of devices.
 
@@ -11,3 +11,5 @@ A simple python script for adjusting and validating certificates prototypes and 
 * `--validate-suffix` Validate the mac file name suffix is valid.
 * `--output-dir` The path to the output directory. If no output directory is given, a default one will be created.
 * `--source-dir` The path to the source directory. Required.
+
+__FILE__: [certificates_automation.py](./certificates_automation.py)
