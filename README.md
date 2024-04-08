@@ -25,3 +25,13 @@ A simple C program which showcases the internals (and exploitation option) of me
 * `example2()` -> Shows the ability to modify the "pointers metadata linked list" and gain control over future allocations.
 
 __FILE__: [double_free_exploit.c](./double_free_exploit.c)
+
+
+# C Learning / C++ Learning
+
+Just some code snippets I wrote when I was starting to learn C and C++.
+
+## The functions inside the program:
+
+
+__DIRS__: [C Learning](./C%20Learning) | [C++ Learning](./C++%20Learning)
