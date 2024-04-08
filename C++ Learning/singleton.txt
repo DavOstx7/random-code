@@ -1,0 +1,64 @@
+Points:
+1) constructor private - creation could only be inside the class.
+2) copy constructor deleted - if we allow copy, we will allow different instances.
+3) Can use a static private singleton instane, but it's better to create it inside a Get function which creates a static singleton and returns a reference to it.
+4) Good to remember that methods work only on objects! (that's explain something I though was weird about the code) and can also work on static.
+5) The functions other than the Get should be non static, because it will make the code more clear that we work on one object.
+E.g: With non static "cout << Singleton::Get().ReturnX();" With static "cout << Singleton::ReturnX" (actually it makes it look like one variable but not instance)
+I.e if we had already an instance via refernce, we would use <var name>.ReturnX(); (same if it was static).
+6) This idea could also be achieved with namespaces, but using a class allowes for public/private memeber/methods + object that refer to the singleton.
+7) The idea of singleton would be used on things that should only be created once, for example random class.
+My Code (better to watch The Cherno video again):
+
+#include <iostream>
+
+using namespace std;
+
+struct Singleton{
+private:
+    Singleton() = default;
+public:
+    static Singleton& GetInstance(){
+        static Singleton instance;
+        return instance;
+    }
+    
+    Singleton(const Singleton&) = delete;
+    
+    static void increamentX(){
+        GetInstance().x++;
+    }
+    
+    void increamentY(){
+        y++;
+    }
+    
+    static void increamentZ(){
+        z++;
+    }
+    void increamentD(){
+        d++;
+    }
+public:
+    int x = 0;
+    int y = 0;
+    static int z;
+    static int d;
+};
+
+int Singleton::z = 0;
+int Singleton::d = 0;
+
+int main()
+{
+    
+    Singleton& s = Singleton::GetInstance();
+    s.increamentX();
+    s.increamentY();
+    s.increamentZ();
+    s.increamentD();
+    
+    cout << s.x << s.y << s.z << s.d << s.GetInstance().y;
+    
+    return 0;
+}
