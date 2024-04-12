@@ -30,9 +30,8 @@ __FILE__: [double_free_exploit.c](./double_free_exploit.c)
 # C Learning / C++ Learning
 
 Just some code snippets I wrote when I was starting to learn C and C++.
-
-## The functions inside the program:
-
+It contains the basic of the basics, and some practice programs I wrote.
+I had a lot more programs which I couldn't find (mostly C++ programs after I watched "The Cherno" YouTube series).
 
 __DIRS__: [C Learning](./C%20Learning) | [C++ Learning](./C++%20Learning)
 
