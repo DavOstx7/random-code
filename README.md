@@ -21,8 +21,8 @@ A simple C program which showcases the internals (and exploitation option) of me
 
 ## The functions inside the program:
 
-* `example1()` -> Shows the "pointers metadata linked list" that is used for more efficient future allocations.
-* `example2()` -> Shows the ability to modify the "pointers metadata linked list" and gain control over future allocations.
+* `example1()` -> Shows the tcache bin linked list that is used for more efficient future allocations.
+* `example2()` -> Shows the ability to modify the tcache bin linked list and gain control over future allocations.
 
 __FILE__: [double_free_exploit.c](./double_free_exploit.c)
 
