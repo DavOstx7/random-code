@@ -35,3 +35,13 @@ Just some code snippets I wrote when I was starting to learn C and C++.
 
 
 __DIRS__: [C Learning](./C%20Learning) | [C++ Learning](./C++%20Learning)
+
+
+# Pythonic System Package
+
+Some old concept I had to implement a bundle of pypi packages, which will give the ability to control
+both windows and linux system locally and remotely via shell commands.
+The basic idea is stated in the [idea.txt](./Pythonic%20System%20Package/idea.txt) file.
+The code is overly complicated and modular. Would definitely refactor it if I ever touch it again.
+
+__DIR__: [Pythonic System Package](./Pythonic%20System%20Package)
