@@ -6,7 +6,7 @@ import pathlib
 import shutil
 from datetime import datetime
 
-DEFAULT_SOURCE_DIR = "."
+DEFAULT_SOURCE_DIR = ".."
 VALID_SUFFIXES = {".prv", ".cer"}
 VALID_BYTE4_VALUES = {"12", "14"}
 VALID_PROTOS = {"D40", "D30", "PC"}
@@ -106,7 +106,7 @@ def adjust_cli_args(cli_args: dict):
     proto, flavor, output_dir = cli_args['proto'], cli_args['flavor'], cli_args['output_dir']
     if not output_dir:
         default_name = get_proto_flavor_prefix_for_path(proto, flavor) + get_current_date()
-        cli_args['output_dir'] = os.path.join(".", default_name)
+        cli_args['output_dir'] = os.path.join("..", default_name)
 
 
 def get_cli_args() -> dict:

@@ -12,7 +12,7 @@ A simple python script for adjusting and validating certificates prototypes and 
 * `--output-dir` The path to the output directory. If no output directory is given, a default one will be created.
 * `--source-dir` The path to the source directory. Required.
 
-__FILE__: [certificates_automation.py](./certificates_automation.py)
+__FILE__: [certificates_automation.py](python/certificates_automation.py)
 
 
 # Double Free Exploit
@@ -24,7 +24,7 @@ A simple C program which showcases the internals (and exploitation option) of me
 * `example1()` -> Shows the tcache bin linked list that is used for more efficient future allocations.
 * `example2()` -> Shows the ability to modify the tcache bin linked list and gain control over future allocations.
 
-__FILE__: [double_free_exploit.c](./double_free_exploit.c)
+__FILE__: [double_free_exploit.c](C/double_free_exploit.c)
 
 
 # C Learning / C++ Learning
@@ -36,7 +36,7 @@ I had a lot more programs which I couldn't find (mostly C++ programs after I wat
 __DIRS__: [C Learning](./C%20Learning) | [C++ Learning](./C++%20Learning)
 
 
-# Pythonic System Package
+# System Package
 
 Some old concept I had to implement a bundle of pypi packages, which will give the ability to control
 both windows and linux system locally and remotely via shell commands.
@@ -51,4 +51,4 @@ __DIR__: [Pythonic System Package](./Pythonic%20System%20Package)
 I tried to implement my own argument parser (for example argparse). 
 The code remained unfinished.
 
-__DIR__: [argumentParser](./argumentParser)
+__DIR__: [argumentParser](python/argumentParser)
