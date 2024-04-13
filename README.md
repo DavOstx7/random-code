@@ -56,6 +56,20 @@ __DIR__: [argumentParser](python/argumentParser)
 
 # Http Server
 
-Old http server I wrote for an exercise in school
+Old http server I wrote for an exercise in school.
 
 __DIR__: [httpServer](python/httpServer)
+
+
+# Python Exercises
+
+Ancient exercises I did at  school.
+
+__DIR__: [exercises](python/exercises)
+
+
+# Chess Game / Logical Gates
+
+More practice exercises (the chess game is unfinished).
+
+__DIRS__: [chessGame](python/chessGame) | [logicalGates](python/logicalGates)
