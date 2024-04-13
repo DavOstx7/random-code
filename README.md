@@ -46,6 +46,14 @@ The code is overly complicated and modular. Would definitely refactor it if I ev
 __DIR__: [systemPackage](./python/systemPackage)
 
 
+# Chess Game / Logical Gates
+
+* Unfinished chess game exercise
+* Finished logical gates exercise
+
+__DIRS__: [chessGame](python/chessGame) | [logicalGates](python/logicalGates)
+
+
 # Argument Parser
 
 I tried to implement my own argument parser (for example argparse). 
@@ -67,9 +75,3 @@ Ancient exercises I did at  school.
 
 __DIR__: [exercises](python/exercises)
 
-
-# Chess Game / Logical Gates
-
-More practice exercises (the chess game is unfinished).
-
-__DIRS__: [chessGame](python/chessGame) | [logicalGates](python/logicalGates)
