@@ -40,10 +40,10 @@ __DIRS__: [C Learning](./C%20Learning) | [C++ Learning](./C++%20Learning)
 
 Some old concept I had to implement a bundle of pypi packages, which will give the ability to control
 both windows and linux system locally and remotely via shell commands.
-The basic idea is stated in the [idea.txt](./Pythonic%20System%20Package/idea.txt) file.
+The basic idea is stated in the [idea.txt](./python/systemPackage/idea.txt) file.
 The code is overly complicated and modular. Would definitely refactor it if I ever touch it again.
 
-__DIR__: [Pythonic System Package](./Pythonic%20System%20Package)
+__DIR__: [systemPackage](./python/systemPackage)
 
 
 # Argument Parser
@@ -52,3 +52,10 @@ I tried to implement my own argument parser (for example argparse).
 The code remained unfinished.
 
 __DIR__: [argumentParser](python/argumentParser)
+
+
+# Http Server
+
+Old http server I wrote for an exercise in school
+
+__DIR__: [httpServer](python/httpServer)
