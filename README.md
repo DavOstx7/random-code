@@ -69,9 +69,15 @@ Old http server I wrote for an exercise in school.
 __DIR__: [httpServer](python/httpServer)
 
 
-# Python Exercises
+# New Python Exercises
 
-Ancient exercises I did at  school.
+Recent exercises I did while practicing.
 
-__DIR__: [exercises](python/exercises)
+__DIR__: [newExercises](python/newExercises)
 
+
+# Old Python Exercises
+
+Ancient exercises I did at school.
+
+__DIR__: [oldExercises](python/oldExercises)
