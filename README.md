@@ -24,7 +24,7 @@ A simple C program which showcases the internals (and exploitation option) of me
 * `example1()` -> Shows the tcache bin linked list that is used for more efficient future allocations.
 * `example2()` -> Shows the ability to modify the tcache bin linked list and gain control over future allocations.
 
-__FILE__: [double_free_exploit.c](C/double_free_exploit.c)
+__FILE__: [double_free_exploit.c](C%20Programming/double_free_exploit.c)
 
 
 # C Learning / C++ Learning
@@ -33,7 +33,7 @@ Just some code snippets I wrote when I was starting to learn C and C++.
 It contains the basic of the basics, and some practice programs I wrote.
 I had a lot more programs which I couldn't find (mostly C++ programs after I watched "The Cherno" YouTube series).
 
-__DIRS__: [C Learning](./C%20Learning) | [C++ Learning](./C++%20Learning)
+__DIRS__: [C Learning](C%20Programming/C%20Learning) | [C++ Learning](C%20Programming/C++%20Learning)
 
 
 # System Package
@@ -43,7 +43,7 @@ both windows and linux system locally and remotely via shell commands.
 The basic idea is stated in the [idea.txt](./python/systemPackage/idea.txt) file.
 The code is overly complicated and modular. Would definitely refactor it if I ever touch it again.
 
-__DIR__: [systemPackage](./python/systemPackage)
+__DIR__: [systemPackage](python/systemPackage)
 
 
 # Chess Game / Logical Gates
@@ -67,6 +67,13 @@ __DIR__: [argumentParser](python/argumentParser)
 Old http server I wrote for an exercise in school.
 
 __DIR__: [httpServer](python/httpServer)
+
+
+# C/C++ Exercises
+
+Some code written in C and C++ back when I was learning & practicing.
+
+__DIR__: [exercises](C%20Programming/exercises)
 
 
 # New Python Exercises
