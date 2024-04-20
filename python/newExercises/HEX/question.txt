@@ -1,0 +1,8 @@
+The file tryhexdict.py has 4 solution to a problem
+The problem is to convert number's between 1 to N in decimal to HEX form.
+
+solution1 is the most simple - kinda cheating with python built in functions
+solution2 is going 1 by 1, adding a value of 1 to the last number, and updating the other digits in case it's needed
+solution3 uses recursive method, similar to solution2
+solution4 is similar to solution1, but the function to turn the decimal number to a hexadecimal one is written.
+

@@ -1,0 +1,40 @@
+Types (python):
+
+1)
+
+for i in range(start, stop, step):
+
+* iterates over every number between start, stop -1, and 'i' goes up every iteration by step.
+* if the step is negative, it will go until stop +1.
+
+2)
+
+product() generates every possible pairing of elements, including all duplicates: <every possibility>
+
+*
+1,1  1,2  1,3  1,4
+2,1  2,2  2,3  2,4
+3,1  3,2  3,3  3,4
+4,1  4,2  4,3  4,4
+
+3)
+
+permutations() generates all unique orderings of each unique pair of elements, eliminating the x,x duplicates: <every possibility but (without) the same element more than once in iteration>
+
+*
+ .   1,2  1,3  1,4
+2,1   .   2,3  2,4
+3,1  3,2   .   3,4
+4,1  4,2  4,3   .
+
+4)
+
+Finally, combinations() only generates each unique pair of elements, in lexicographic order: <only unique possibility (you can't make from one iteration the same as the other by changing order)>
+
+*
+.   1,2  1,3  1,4
+.    .   2,3  2,4
+.    .    .   3,4
+.    .    .    .
+
+

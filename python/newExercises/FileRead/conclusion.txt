@@ -1,0 +1,2 @@
+# for reading files line by line, using  with open(<file>) as f: {for line in f {{ ... }} } is better
+# If it's a relatively small file, and you want to save all of it, using f = open(<file>, 'r') ---> f.read() <string>  or f.readlines() <list> could be useful
