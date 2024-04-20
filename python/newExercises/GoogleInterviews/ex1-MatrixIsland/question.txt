@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=4tYoVx0QoN0
+
+#Task is to remove all of the '1' in the matrix who aren't connected to the borders of the matrix.
+#Connection is between a '1' to the left, up, right or down of another '1'.
+#A connection can be as long as it wants. As long as a '1' is connected through other '1's to the border, it can stay in the matrix. 
+#All of the '1's who aren't connected, should be switched with a '0'.
+
+
+---> pysol1/3.py is a more complex solution
+---> pysol2/4.py is a better solution

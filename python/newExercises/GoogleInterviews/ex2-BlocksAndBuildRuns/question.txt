@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=rw4s4M3hFfs
+
+#~~~Q1~~~#
+#First question is to find the best block to live in.
+#The best block to live in is the block that you would have to walk the
+least amount to reach all required destinations
+#mysolution takes the total distance you would have to walk to reach all requirements.
+#hissolution takes the the distance you would have to walk to reach a requirement.
+
+#~~~Q2~~~#
+#Second question is to find the best sequence of build runs.
+#Build runs are the success to failure (time) untill there is another success.
+#True represents sucess, False represents failure.
+#A sequence is defined by a higher precentege of success to failure of a build run that the last one.
