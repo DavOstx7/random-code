@@ -1,8 +1,24 @@
-# Certificates Automation
+# Python
+
+## Python Exercises (New)
+
+More recent exercises I did while practicing.
+
+__DIR__: [newExercises](python/newExercises)
+
+
+## Python Exercises (Old)
+
+Aged exercises I did at school.
+
+__DIR__: [oldExercises](python/oldExercises)
+
+
+## Certificates Automation
 
 A simple python script for adjusting and validating certificates prototypes and flavors of devices.
 
-## The script works as CLI with the following arguments:
+### The script works as CLI with the following arguments:
 
 * `-h` -> Show help message
 * `--proto` Choose the wanted prototype out of the constant options. Required.
@@ -15,76 +31,29 @@ A simple python script for adjusting and validating certificates prototypes and 
 __FILE__: [certificates_automation.py](python/certificates_automation.py)
 
 
-# Double Free Exploit
+## System Package
 
-A simple C program which showcases the internals (and exploitation option) of memory allocations in some systems.
-
-## The functions inside the program:
-
-* `example1()` -> Shows the tcache bin linked list that is used for more efficient future allocations.
-* `example2()` -> Shows the ability to modify the tcache bin linked list and gain control over future allocations.
-
-__FILE__: [double_free_exploit.c](C%20Programming/double_free_exploit.c)
-
-
-# C Learning / C++ Learning
-
-Just some code snippets I wrote when I was starting to learn C and C++.
-It contains the basic of the basics, and some practice programs I wrote.
-I had a lot more programs which I couldn't find (mostly C++ programs after I watched "The Cherno" YouTube series).
-
-__DIRS__: [C Learning](C%20Programming/C%20Learning) | [C++ Learning](C%20Programming/C++%20Learning)
-
-
-# System Package
-
-Some old concept I had to implement a bundle of pypi packages, which will give the ability to control
-both windows and linux system locally and remotely via shell commands.
-The basic idea is stated in the [idea.txt](./python/systemPackage/idea.txt) file.
-The code is overly complicated and modular. Would definitely refactor it if I ever touch it again.
+Some old concept I had to implement a bundle of pypi packages, which will give the ability to control both windows and
+linux system locally and remotely via shell commands. The basic idea is stated in
+the [idea.txt](./python/systemPackage/idea.txt) file. The code is overly complicated and modular. Would definitely
+refactor it if I ever touch it again.
 
 __DIR__: [systemPackage](python/systemPackage)
 
 
-# Chess Game / Logical Gates
+# C/C++
 
-* Unfinished chess game exercise
-* Finished logical gates exercise
-
-__DIRS__: [chessGame](python/chessGame) | [logicalGates](python/logicalGates)
-
-
-# Argument Parser
-
-I tried to implement my own argument parser (for example argparse). 
-The code remained unfinished.
-
-__DIR__: [argumentParser](python/argumentParser)
-
-
-# Http Server
-
-Old http server I wrote for an exercise in school.
-
-__DIR__: [httpServer](python/httpServer)
-
-
-# C/C++ Exercises
+## C/C++ Exercises
 
 Some code written in C and C++ back when I was learning & practicing.
 
 __DIR__: [exercises](C%20Programming/exercises)
 
 
-# New Python Exercises
+## C Learning / C++ Learning
 
-Recent exercises I did while practicing.
+Just some code snippets I wrote when I was starting to learn C and C++. It contains the basic of the basics, and some
+practice programs I wrote. I had a lot more programs which I couldn't find (mostly C++ programs after I watched "The
+Cherno" YouTube series).
 
-__DIR__: [newExercises](python/newExercises)
-
-
-# Old Python Exercises
-
-Ancient exercises I did at school.
-
-__DIR__: [oldExercises](python/oldExercises)
+__DIRS__: [C Learning](C%20Programming/C%20Learning) | [C++ Learning](C%20Programming/C++%20Learning)
