@@ -41,6 +41,15 @@ refactor it if I ever touch it again.
 __DIR__: [systemPackage](python/systemPackage)
 
 
+## Overloading
+
+Something cool that I always thought to implement was function overloading in python.
+This is a POC I made. As you can see, I wasn't to sure which way was the best.
+Will probably turn it soon to a global pypi package.
+
+__DIR__: [overloading](python/overloading)
+
+
 # C/C++
 
 ## C/C++ Exercises
