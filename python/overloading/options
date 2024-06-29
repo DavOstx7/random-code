@@ -1,0 +1,51 @@
+import pyover
+
+
+# OPTION 1.1 (GLOBAL MAPPING - RETRIEVE FUNC NAME)
+# OPTION 1.2 (GLOBAL MAPPING - OOP)
+# OPTION 1.3 (GLOBAL MAPPING - MORE OOP)
+@pyover
+def func(x: int) -> int:
+    pass
+
+@pyover
+def func(x: int, y: int) -> int:
+    pass
+
+
+# OPTION 2.1 (GROUP MAPPING - DYNAMIC GROUP CREATION - DO NOT CONSIDER FUNC NAME)
+# OPTION 2.2 (GROUP MAPPING - DYNAMIC GROUP CREATION - DO CONSIDER FUNC NAME)
+@pyover.func
+def func(x: int) -> int:
+    pass
+
+
+@pyover.func
+def func(x: int, y: int) -> int:
+    pass
+
+
+# OPTION 3 (GROUP MAPPING -  DO NOT CONSIDER FUNC NAME)
+def func1(x: int) -> int:
+    pass
+
+def func2(x: int, y: int) -> int:
+    pass
+
+pyover.add("func", func1, func2)
+
+
+# OPTION 4.1 (GROUP MAPPING - NEW OVERLOADER - DO CONSIDER FUNC NAME)
+# OPTION 4.2 (GROUP MAPPING - NEW OVERLOADER - DO NOT CONSIDER FUNC NAME)
+func_overloader = pyover.new()
+
+@func_overload
+def func(x: int) -> int:
+    pass
+
+@func_overload
+def func(x: int, y: int) -> int:
+    pass
+
+
+###  MAYBE support all options by some sort, by using @pyover.global and @pyover.group("group_name")
